@@ -1,0 +1,50 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran);
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family: 'Catamaran', sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.container{
+  display: flex;
+  width:100vw;
+  max-width: 100%;
+  margin: 0;
+  padding:0;
+}
+.row{
+  flex-direction: row;
+}
+.column{
+  flex-direction: column;
+}
+/*  for all cells   */
+.size_1,
+.size_2, .size_3, .size_4, .size_5, .size_6, .size_7, .size_8, .size_9, .size_10{
+  padding: 10px;
+}
+/*  size for rows   */
+.row > .size_1{ width:10vw;}
+.row > .size_2{ width:20vw;}
+.row > .size_3{ width:30vw;}
+.row > .size_4{ width:40vw;}
+.row > .size_5{ width:50vw;}
+.row > .size_6{ width:60vw;}
+.row > .size_7{ width:70vw;}
+.row > .size_8{ width:80vw;}
+.row > .size_9{ width:90vw;}
+.row > .size_10{width:100vw;}
+/*  size for columns   */
+.column > .size_1{ height:10vh;}
+.column > .size_2{ height:20vh;}
+.column > .size_3{ height:30vh;}
+.column > .size_4{ height:40vh;}
+.column > .size_5{ height:50vh;}
+.column > .size_6{ height:60vh;}
+.column > .size_7{ height:70vh;}
+.column > .size_8{ height:80vh;}
+.column > .size_9{ height:90vh;}
+.column > .size_10{height:100vh;}
