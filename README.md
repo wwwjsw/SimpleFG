@@ -1,6 +1,10 @@
 # S.F.G
 Simple Flexbox Grid!
-
+## INSTALL
+#### bower
+```
+bower install SimpleFG
+```
 ## THE GRID
 
 - **.container** Class define 100vw and flex item.
