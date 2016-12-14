@@ -1,3 +1,11 @@
+# Development Branch 
+## TODO
+- image styles.
+- input styles.
+- animations.
+- minify.
+- SASS.
+
 # S.F.G
 Simple Flexbox Grid!
 ## INSTALL
